@@ -1,6 +1,6 @@
 /*
 SQLyog Community v13.3.0 (64 bit)
-MySQL - 11.4.2-MariaDB : Database - clojure_movie-store
+MySQL - 10.4.32-MariaDB : Database - clojure_movie-store
 *********************************************************************
 */
 
