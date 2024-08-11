@@ -31,7 +31,7 @@ CREATE TABLE `actors` (
 /*Data for the table `actors` */
 
 insert  into `actors`(`Id`,`ProfilePictureURL`,`FullName`,`Bio`) values
-(1,'http://dotnethow.net/images/actors/actor-5.jpeg','Actor 5','This is the Bio of the five actor'),
+(1,'http://dotnethow.net/images/actors/actor-5.jpeg','Actor 5','This is the Bio of the fifth actor'),
 (2,'http://dotnethow.net/images/actors/actor-4.jpeg','Actor 4','This is the Bio of the fourth actor'),
 (3,'http://dotnethow.net/images/actors/actor-3.jpeg','Actor 3','This is the Bio of the third actor'),
 (4,'http://dotnethow.net/images/actors/actor-2.jpeg','Actor 2','This is the Bio of the second actor'),
@@ -90,7 +90,7 @@ insert  into `cinemas`(`Id`,`Logo`,`Name`,`Description`) values
 (2,'http://dotnethow.net/images/cinemas/cinema-2.jpeg','Cinema 2','This is the description of the second cinema'),
 (3,'http://dotnethow.net/images/cinemas/cinema-3.jpeg','Cinema 3','This is the description of the third cinema'),
 (4,'http://dotnethow.net/images/cinemas/cinema-4.jpeg','Cinema 4','This is the description of the fourth cinema'),
-(5,'http://dotnethow.net/images/cinemas/cinema-5.jpeg','Cinema 5','This is the description of the five cinema');
+(5,'http://dotnethow.net/images/cinemas/cinema-5.jpeg','Cinema 5','This is the description of the fifth cinema');
 
 /*Table structure for table `movies` */
 
@@ -139,7 +139,7 @@ CREATE TABLE `producers` (
 /*Data for the table `producers` */
 
 insert  into `producers`(`Id`,`ProfilePictureURL`,`FullName`,`Bio`) values
-(1,'http://dotnethow.net/images/producers/producer-5.jpeg','Producer 5','This is the Bio of the five producer'),
+(1,'http://dotnethow.net/images/producers/producer-5.jpeg','Producer 5','This is the Bio of the fifth producer'),
 (2,'http://dotnethow.net/images/producers/producer-4.jpeg','Producer 4','This is the Bio of the fourth producer'),
 (3,'http://dotnethow.net/images/producers/producer-3.jpeg','Producer 3','This is the Bio of the third producer'),
 (4,'http://dotnethow.net/images/producers/producer-2.jpeg','Producer 2','This is the Bio of the second producer'),
