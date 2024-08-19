@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, intital-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <title>eTickets</title>
+    <link href="">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <script src="/js/main.js"></script>
@@ -20,9 +21,9 @@
         <li>
             <a href="/index">Home</a>
             <a href="/movies">Movies</a>
-            <a href="/actor" class="home-active">Actors</a>
+            <a href="/actor">Actors</a>
             <a href="/producer">Producers</a>
-            <a href="/cinema">Cinemas</a>
+            <a href="/cinema" class="home-active">Cinemas</a>
         </li>
     </ul>
 </header>
@@ -46,31 +47,31 @@
             </tr>
             </thead>
             <tbody>
-            {{#actors}}
+            {{#cinemas}}
                 <tr style="border-bottom:1px solid #e0e0d1">
                     <td>
-                        <img class="rounded-circle" src="{{profilepictureurl}}" style="clip-path:circle()">
+                        <img class="rounded-circle" src="{{logo}}" style="clip-path:circle()">
                     </td>
                     <td>
-                        {{fullname}}
+                        {{name}}
                     </td>
                     <td>
-                        {{bio}}
+                        {{description}}
                     </td>
                     <td>
-                        <a href="/Domain/actors/{{id}}/update" class="btn">
+                        <a href="/Domain/cinemas/{{id}}/update" class="btn">
                             <i class="bx bx-edit">
                                 Edit
                             </i>
                         </a>
-                        <a href="/Domain/actors/{{id}}/remove" class="btn">
+                        <a href="/Domain/cinemas/{{id}}/remove" class="btn">
                             <i class="bx bxs-trash">
                                 Delete
                             </i>
                         </a>
                     </td>
                 </tr>
-            {{/actors}}
+            {{/cinemas}}
             </tbody>
         </table>
     </div>
@@ -78,9 +79,9 @@
 <!--Subscribe-->
 <section class="newsletter" id="home">
     <h2>
-        Add New Actor
+        Add New Cinema
         <br>
-        <button class="btn btn-success" id="addActors" onclick="addActors()">Add Actor</button>
+        <button class="btn btn-success" id="addCinemas" onclick="addCinemas()">Add Cinema</button>
     </h2>
 </section>
 <!--Footer-->
