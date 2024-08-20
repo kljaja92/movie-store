@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eTickets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="/js/main.js"></script>
+    <script src="/js/app.js"></script>
+</head>
+<body>
+<header class="shadow">
+    <a href="#" class="logo">
+        <i class="bx bxs-movie"></i>eTickets
+    </a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+        <li><a href="/index">Home</a></li>
+        <li><a href="/movies">Movies</a></li>
+        <li><a href="/actor">Actors</a></li>
+        <li><a href="/producer" class="home-active">Producers</a></li>
+        <li><a href="/cinema">Cinemas</a></li>
+    </ul>
+</header>
+<section class="actor" id="producer">
+    <div class="row">
+        <table class="table" >
+            <thead style="border-bottom:1px solid #e0e0d1">
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Biography</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#producers}}
+                <tr style="border-bottom:1px solid #e0e0d1">
+                    <td>
+                        <img class="rounded-circle" src="{{profilepictureurl}}" style="clip-path:circle()">
+                    </td>
+                    <td>{{fullname}}</td>
+                    <td>{{bio}}</td>
+                    <td>
+                        <a href="/Domain/producers/{{id}}/update" class="btn"><i class='bx bx-edit' ></i>Edit</a>
+                        <a href="/Domain/producers/{{id}}/remove" class="btn"><i class='bx bxs-trash'></i>Delete</a>
+                    </td>
+                </tr>
+            {{/producers}}
+            </tbody>
+        </table>
+    </div>
+</section>
+<!--Subscribe-->
+<section class="newsletter" id="home">
+    <h2>Add new Producer<br>
+        <button class="btn btn-success" id="addProducers" onclick="addProducers()">Add Producer</button>
+    </h2>
+</section>
+<!--Footer-->
+<section class="footer">
+    <a href="#" class="logo">
+        <i class="bx bxs-movie"></i> eTickets
+    </a>
+    <div class="social">
+        <a href="https://github.com/kljaja92/movie-store"><i class="bx bxl-github"></i></a>
+    </div>
+</section>
+<!--Copyright-->
+<div class="copyright">
+    <p>&#169; eTickets</p>
+</div>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+</html>
