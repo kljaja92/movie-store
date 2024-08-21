@@ -117,12 +117,12 @@ CREATE TABLE `movies` (
 /*Data for the table `movies` */
 
 insert  into `movies`(`Id`,`Name`,`Description`,`Price`,`ImageURL`,`StartDate`,`EndDate`,`MovieCategory`,`CinemaId`,`ProducerId`) values
-(1,'Scoob','This is the Scoob movie description',45.5,'http://dotnethow.net/images/movies/movie-7.jpeg','2024-08-10','2024-09-10','Cartoon',1,3),
-(2,'Race','This is the Race movie description',40.5,'http://dotnethow.net/images/movies/movie-6.jpeg','2024-08-15','2024-09-15','Cartoon',1,2),
-(3,'Ghost','This is the Ghost movie description',55.5,'http://dotnethow.net/images/movies/movie-4.jpeg','2024-08-16','2024-09-16','Cartoon',4,4),
+(1,'Scoob','This is the Scoob movie description',39.5,'http://dotnethow.net/images/movies/movie-7.jpeg','2024-08-10','2024-09-10','Cartoon',1,3),
+(2,'Race','This is the Race movie description',39.5,'http://dotnethow.net/images/movies/movie-6.jpeg','2024-08-15','2024-09-15','Cartoon',1,2),
+(3,'Ghost','This is the Ghost movie description',39.5,'http://dotnethow.net/images/movies/movie-4.jpeg','2024-08-16','2024-09-16','Cartoon',4,4),
 (4,'The Shawshank Redemption','This is the The Shawshank Redemption movie description',29.5,'http://dotnethow.net/images/movies/movie-1.jpeg','2024-08-20','2024-09-20','Cartoon',1,1),
-(5,'Life','This is the Life movie description',30.5,'http://dotnethow.net/images/movies/movie-3.jpeg','2024-08-25','2024-09-25','Cartoon',3,3),
-(6,'Cold Soles','This is the Cold Soles movie description',40.5,'http://dotnethow.net/images/movies/movie-8.jpeg','2024-08-30','2024-09-30','Cartoon',1,5);
+(5,'Life','This is the Life movie description',39.5,'http://dotnethow.net/images/movies/movie-3.jpeg','2024-08-25','2024-09-25','Cartoon',3,3),
+(6,'Cold Soles','This is the Cold Soles movie description',39.5,'http://dotnethow.net/images/movies/movie-8.jpeg','2024-08-30','2024-09-30','Cartoon',1,5);
 
 /*Table structure for table `producers` */
 
