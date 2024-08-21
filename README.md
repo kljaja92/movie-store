@@ -8,7 +8,7 @@ In this app we have statistic number data for movies, actors, producers and cine
 
 ## User demo introduction
 
-In this part i'm show you quick overview of this website.
+In this part I am going to show you quick overview of this website.
 <br>
 
 This is the look of homepage card
